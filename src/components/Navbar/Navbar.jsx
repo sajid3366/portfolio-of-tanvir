@@ -16,8 +16,11 @@ const Navbar = () => {
                             isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
                         }>Home</NavLink></li>
                         <li><NavLink to="/project" className={({ isActive, isPending }) =>
-                            isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                            isActive ? "text-[#000000]  font-bold " : isPending ? "pending hover:text-red-500" : ""
                         }>Project</NavLink></li>
+                        <li><NavLink to="/publication" className={({ isActive, isPending }) =>
+                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                    }>Publication</NavLink></li>
                         <li><NavLink to="/about" className={({ isActive, isPending }) =>
                             isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
                         }>About</NavLink></li>
@@ -36,20 +39,23 @@ const Navbar = () => {
             <div className="navbar-end">
                 <ul className=" hidden lg:flex gap-x-5 items-center text-gray-500 mr-12 text-lg">
                     <li><NavLink to="/" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Home</NavLink></li>
                     <li><NavLink to="/project" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                        isActive ? "text-[#000000]  font-bold " : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Project</NavLink></li>
+                    <li><NavLink to="/publication" className={({ isActive, isPending }) =>
+                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
+                    }>Publication</NavLink></li>
                     <li><NavLink to="/about" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>About</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive, isPending }) =>
-                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : ""
+                        isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Contact</NavLink></li>
 
                 </ul>
-                <p className="bg-[#28e98c] px-3 py-1 text-lg rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-110"><a href="https://drive.google.com/file/d/16AP1Mh8FMHBSKOanizvMbP-JQoQpbvr2/view?usp=drive_link" target="_blank" rel="noreferrer"> Resume</a></p>
+                <p className="bg-[#28e98c] px-3 py-1 text-lg rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-110"><a href="/" target="_blank" rel="noreferrer"> Resume</a></p>
 
             </div>
         </div>
