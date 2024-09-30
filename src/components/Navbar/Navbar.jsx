@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import image from '../../../public/image/logo-T-removebg-preview.png'
+import '../Shared/Shared.css'
 
 const Navbar = () => {
     return (
 
-        <div className="navbar text-black">
+        <div className="navbar text-black  height">
             <div className="navbar-start">
 
                 <div className="dropdown text-black">
@@ -55,7 +56,7 @@ const Navbar = () => {
                     }>Contact</NavLink></li>
 
                 </ul>
-                <p className="bg-[#28e98c] px-3 py-1 text-lg rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-110"><a href="/" target="_blank" rel="noreferrer"> Resume</a></p>
+                <p className="bg-primary text-white px-3 py-1 text-lg font-semibold rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-105"><a href="/" target="_blank" rel="noreferrer"> Resume</a></p>
 
             </div>
         </div>
