@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../../../public/image/tanvir-12.png"
+import image from "../../../public/image/tanvir-13.png"
 import linkedin from "../../../public/image/linkedin-logo.png"
 import twitter from "../../../public/image/logo-X.jpg"
 import fb from "../../../public/image/logo-fb.png"
