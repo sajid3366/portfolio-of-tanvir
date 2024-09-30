@@ -56,7 +56,7 @@ const Navbar = () => {
                     }>Contact</NavLink></li>
 
                 </ul>
-                <p className="bg-primary text-white px-3 py-1 text-lg font-semibold rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-105"><a href="/" target="_blank" rel="noreferrer"> Resume</a></p>
+                <p className="bg-primary text-white px-3 py-1 text-lg font-semibold rounded-sm flex gap-2 items-center justify-center cursor-pointer hover:transition duration-700 hover:scale-105"><a href="https://drive.google.com/file/d/1OmeXwqGXIlh_Rqr-NPAWZioSUZR2MqHJ/view?fbclid=IwY2xjawFn0-hleHRuA2FlbQIxMAABHS3ZBKV6oNLldXatGX2QPvi8PM_2cN_GU8FY-L9_SuV1fXoEL5YhR_fxQg_aem_247F5KeKZqwKTwbSpqq8mg" target="_blank" rel="noreferrer"> Resume</a></p>
 
             </div>
         </div>
