@@ -8,15 +8,6 @@ import mail from "../../../public/image/logo-mail.png"
 
 
 
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebookSquare } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-
-
-
-
 const Banner = () => {
     return (
 
@@ -26,7 +17,7 @@ const Banner = () => {
                     <h1 className="text-7xl font-bold">Tanvir Shaikat</h1>
                     <h2 className='text-2xl pt-3 pl-3 font-semibold'>Mechine Learning Engineer | Data Analyst | Reseacher</h2>
                     <p className="py-6 text-lg text-justify">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum perferendis itaque cupiditate ab odio! Doloribus, impedit ipsum obcaecati nesciunt inventore nemo hic voluptatem ratione fugiat iure, facilis tempora cupiditate quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quae aperiam repellendus saepe molestias consequatur eveniet aliquam suscipit nobis quaerat doloribus alias molestiae minima, corporis voluptate odio incidunt culpa delectus.
+                        In every challenge, I don’t just seek solutions—I seek growth. My journey is driven by curiosity and a passion for creating solutions through technology. From developing AI tools that make information more accessible to exploring the depths of machine learning, I’m always seeking to push the envelope. Each project I work on is an opportunity to innovate, learn, and contribute to the field of artificial intelligence and natural language processing. I thrive on tackling complex challenges, whether it's building an intuitive AI interface or diving deep into the mathematics behind machine learning. My goal is to continue growing, not just as a technologist, but as a researcher committed to advancing the frontiers of AI.
                     </p>
                     <ul className='flex items-center gap-x-3 my-5'>
                         <li className='w-10 h-10 '>
@@ -47,7 +38,7 @@ const Banner = () => {
                                 <img className='rounded-md' src={twitter} alt="twitter" />
                             </a>
                         </li>
-                        <li className='w-9 h-10 '> 
+                        <li className='w-9 h-10 '>
                             <a href="">
                                 <img className='rounded-md' src={fb} alt="facebook" />
 
