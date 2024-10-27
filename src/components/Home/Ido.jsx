@@ -30,7 +30,7 @@ const Ido = () => {
                             <BsLightningFill className='mt-2' /><p className='text-xl'>Generative AI</p>
                         </div>
                         <div className='flex items-center gap-x-2 mb-2'>
-                            <BsLightningFill className='mt-2' /><p className='text-xl'>Computer Vision (disigne ba | bar maira dio)</p>
+                            <BsLightningFill className='mt-2' /><p className='text-xl'>Computer Vision</p>
                         </div>
                     </div>
                 </div>

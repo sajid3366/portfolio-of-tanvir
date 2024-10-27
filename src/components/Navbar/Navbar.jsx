@@ -42,15 +42,15 @@ const Navbar = () => {
                     <li><NavLink to="/" className={({ isActive, isPending }) =>
                         isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Home</NavLink></li>
-                    <li><NavLink to="/project" className={({ isActive, isPending }) =>
+                    {/* <li><NavLink to="/project" className={({ isActive, isPending }) =>
                         isActive ? "text-[#000000]  font-bold " : isPending ? "pending" : "hover:text-red-500 hover:underline"
-                    }>Project</NavLink></li>
+                    }>Project</NavLink></li> */}
                     <li><NavLink to="/publication" className={({ isActive, isPending }) =>
                         isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Publication</NavLink></li>
-                    <li><NavLink to="/about" className={({ isActive, isPending }) =>
+                    {/* <li><NavLink to="/about" className={({ isActive, isPending }) =>
                         isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
-                    }>About</NavLink></li>
+                    }>About</NavLink></li> */}
                     <li><NavLink to="/contact" className={({ isActive, isPending }) =>
                         isActive ? "text-[#000000]  font-bold" : isPending ? "pending" : "hover:text-red-500 hover:underline"
                     }>Contact</NavLink></li>
