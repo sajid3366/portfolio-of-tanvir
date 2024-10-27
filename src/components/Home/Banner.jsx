@@ -51,7 +51,7 @@ const Banner = () => {
                             </a>
                         </li>
                     </ul>
-                    <p className="bg-primary text-white w-[250px] px-2 py-2 text-lg font-semibold rounded-md flex gap-2 items-center justify-center cursor-pointer hover:bg-transparent hover:text-black hover:border-primary hover:border-[1px]"><a href="https://www.linkedin.com/in/tanvir-shaikat" target="_blank" rel="noreferrer"> Follow Me On LinkedIn</a></p>
+                    <p className="bg-primary text-white w-[250px] px-2 py-2 text-lg font-semibold rounded-md flex gap-2 items-center justify-center cursor-pointer hover:bg-transparent hover:text-black hover:border-primary hover:border-[1px]"><a href="https://www.linkedin.com/in/tanvir-shaikat" target="_blank" rel="noreferrer">Follow Me On LinkedIn</a></p>
                 </div>
                 <div className='lg:w-2/5'>
                     <img src={image} className="w-[500px]" />

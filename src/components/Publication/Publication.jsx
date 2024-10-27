@@ -1,6 +1,8 @@
 import React from 'react';
 import image1 from '../../../public/image/research-1.webp'
 import image2 from '../../../public/image/research-2.webp'
+import image3 from '../../../public/image/research-3.webp'
+import image4 from '../../../public/image/research-4.webp'
 
 const Publication = () => {
     return (
@@ -46,7 +48,7 @@ const Publication = () => {
                     <h1 className='text-2xl font-bold mb-5 p-3'>Early-Stage Diabetes Risk Prediction Utilizing Machine Learning with Explainable AI from Polynomial and Binning Feature Generation</h1>
                     <figure>
                         <img
-                            src={image2}
+                            src={image3}
                             alt="research-2" />
                     </figure>
                     <div className="p-3 ">
@@ -62,7 +64,7 @@ const Publication = () => {
                     <h1 className='text-2xl font-bold mb-5 p-3'>Bachelor’s Thesis: A Machine Learning and Explainable Artificial Intelligence-based AI Text Detection Technique from Optimal Features</h1>
                     <figure>
                         <img
-                            src={image2}
+                            src={image4}
                             alt="research-2" />
                     </figure>
                     <div className="p-3 ">
